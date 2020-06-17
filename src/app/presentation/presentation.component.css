@@ -1,0 +1,58 @@
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+mat-expansion-panel{
+  background-color: whitesmoke;
+  color: black;
+  max-width: 1000px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+mat-expansion-panel-header {
+  background-color: silver;
+}
+
+mat-panel-title{
+  color: crimson;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+mat-panel-description{
+  color: #101010;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.flex{
+  text-align: center;
+}
+
+img{
+  float: left;
+  margin-right: 10px
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
