@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+/* Diese Komponete macht expanded panels*/
 @Component({
   selector: 'app-presentation',
   templateUrl: './presentation.component.html',
