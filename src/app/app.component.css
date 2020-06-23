@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px auto auto;
+  padding: 10px;
+}
+.grid-item {
+  grid-column: 2/ span 2;
+  padding: 20px;
+  font-size: 30px;
+}
+
+footer{
+  color: black;
+  text-align: right;
+}

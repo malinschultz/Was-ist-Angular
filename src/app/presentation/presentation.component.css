@@ -12,10 +12,6 @@
   margin-left: 8px;
 }
 
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-}
 
 mat-expansion-panel{
   background-color: whitesmoke;
@@ -56,3 +52,4 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
 }
+

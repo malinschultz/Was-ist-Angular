@@ -80,6 +80,24 @@
     <mat-expansion-panel [expanded]="step === 4" (opened)="setStep(4)" hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-title>
+          Angular vs React
+        </mat-panel-title>
+        <mat-panel-description>
+          Was ist besser?
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>- Google vs Facebook<br><br>
+        - React kombiniert UI und Verhalten<br><br>
+        - da React kein vollständiges Framework ist, müssen für mehr Funktionen weitere Bibliotheken genutzt werden<br><br>
+        - Einrichtung und Erlernen ist bei React leichter<br><br>
+        - mit React geschriebener Code kann leicht in andere Frameworks eingebunden werden<br><br>
+        - </p>
+
+    </mat-expansion-panel>
+
+    <mat-expansion-panel [expanded]="step === 5" (opened)="setStep(5)" hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
           Tutorials
         </mat-panel-title>
         <mat-panel-description>
@@ -93,7 +111,7 @@
 
     </mat-expansion-panel>
 
-    <mat-expansion-panel [expanded]="step === 5" (opened)="setStep(5)" hideToggle>
+    <mat-expansion-panel [expanded]="step === 6" (opened)="setStep(6)" hideToggle>
       <mat-expansion-panel-header>
         <mat-panel-title>
           Tutorials
@@ -102,12 +120,12 @@
           Wo kann man das lernen?
         </mat-panel-description>
       </mat-expansion-panel-header>
-      <p>https://angular.io/tutorial<br><br>
-      https://angular.de/artikel/angular-tutorial-deutsch/</p>
+      <p><a href="https://angular.io/tutorial" target="_blank">https://angular.io/tutorial</a><br><br>
+      <a href="https://angular.de/artikel/angular-tutorial-deutsch/" target="_blank">https://angular.de/artikel/angular-tutorial-deutsch/</a></p>
 
     </mat-expansion-panel>
 
-  <mat-expansion-panel [expanded]="step === 6" (opened)="setStep(6)" hideToggle>
+  <mat-expansion-panel [expanded]="step === 7" (opened)="setStep(7)" hideToggle>
     <mat-expansion-panel-header>
       <mat-panel-title>
         Quellen
@@ -116,9 +134,12 @@
         Wo gibt es Infos?
       </mat-panel-description>
     </mat-expansion-panel-header>
-    <p>https://de.m.wikipedia.org/wiki/Angular<br><br>
-    https://angular.io/<br><br>
-      https://www.codeinwp.com/blog/angular-vs-vue-vs-react/</p>
+    <p>
+      <a href="https://de.m.wikipedia.org/wiki/Angular" target="_blank">https://de.m.wikipedia.org/wiki/Angular</a><br><br>
+      <a href="https://angular.io/" target="_blank">https://angular.io/</a><br><br>
+      <a href="https://www.codeinwp.com/blog/angular-vs-vue-vs-react/" target="_blank">https://www.codeinwp.com/blog/angular-vs-vue-vs-react/</a><br><br>
+      <a href="https://technostacks.com/blog/react-vs-angular/">https://technostacks.com/blog/react-vs-angular/</a>
+    </p>
 
   </mat-expansion-panel>
 
